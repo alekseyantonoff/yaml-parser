@@ -1,0 +1,16 @@
+server:
+  host: "localhost"
+  port: 8080
+database:
+  jdbc-url: "postgres://user:pass@localhost:5432/db"
+  username: "admin"
+  password: "secret"
+  enabled: true
+  retries: 3
+timeout: 30
+app:
+  name: "MyApp"
+  debug: true
+  ports:
+    - 8080
+    - 8081
