@@ -4,6 +4,7 @@ The App compares multiple yaml configurations.
 ## How to use
 go run main.go config1.yml config2.yml config3.yml ...
 
+
 ## Dockerfile
 docker build -t yaml-parser .
 
