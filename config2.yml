@@ -1,6 +1,0 @@
-server:
-  host: "example.com"
-  port: 9090
-database:
-  url: "postgres://user:password@localhost:5432/db_new"
-  retries: 3
